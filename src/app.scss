@@ -1,0 +1,22 @@
+.app{
+    height: 100vh;
+    .sections
+    {
+        width: 100%;
+        height: calc(100vh - 10px);
+        background-color: lightsalmon;
+        position: relative;
+        top: 70px;
+        scroll-behavior: smooth; // make the snap to anchor smooth
+        scroll-snap-type: y mandatory; //snap to each section
+        scrollbar-width: none;// firefox (no scrollbar)
+        &::-webkit-scrollbar{
+            display: none; //no scrollbar for all browser
+        }
+        > *{ //set css for each sections in section
+            width: 100vw;
+            height: calc(100vh - 10px);
+            scroll-snap-align: start; // align the snap to the start of each section 
+        }
+    }
+}
