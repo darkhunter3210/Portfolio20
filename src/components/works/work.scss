@@ -24,6 +24,7 @@
         display: flex;
         position: absolute;
         left: 0;
+        transition: all 1s ease-out;
 
         .container
         {
@@ -73,7 +74,7 @@
                             font-size: 20px;
                         }
                         p{
-                            font-size: 30px;
+                            font-size: 13px;
                         }
                         span{
                             font-style: 12px;
