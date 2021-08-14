@@ -1,5 +1,5 @@
 import "./topbar.scss";
-import { Person, Mail } from "@material-ui/icons";
+import { GitHub, Mail,LinkedIn } from "@material-ui/icons";
 
 export default function Topbar({ menuOpen, setMenuOpen }) {
   return (
@@ -7,15 +7,19 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
       <div className="wrapper">
         <div className="left">
           <a href="#intro" className="logo">
-            genius.
+            MC
           </a>
           <div className="itemContainer">
-            <Person className="icon" />
-            <span>+646-331-1072</span>
+            <GitHub className="icon" />
+            <a href="https://github.com/darkhunter3210">Darkhunter3210</a>
           </div>
           <div className="itemContainer">
             <Mail className="icon" />
-            <span>matthewcheung3003@gmail.com</span>
+            <a href="mailto: matthewcheung3003@gmail.com">matthewcheung3003@gmail.com</a>
+          </div>
+          <div className="itemContainer">
+            <LinkedIn className="icon" />
+            <a href="href=https://www.linkedin.com/in/tsz-chung-matthew-cheung-bb50bb195/">Matty</a>
           </div>
         </div>
         <div className="right">

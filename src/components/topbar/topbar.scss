@@ -33,13 +33,18 @@
         align-items: center;
         margin-left: 30px;
 
+        @include mobile{
+          display: none;
+        }
 
         .icon {
           font-size: 18px;
           margin-right: 5px;
         }
 
-        span {
+        a {
+          text-decoration: none;
+          color: black;
           font-size: 15px;
           font-weight: 500;
         }
