@@ -6,34 +6,34 @@ export default function Testimonials()
     const data = [
         {
           id: 1,
-          name: "Tom Durden",
-          title: "Senior Developer",
+          name: "All Might",
+          title: "Symbol of Peace",
           img:
-            "https://images.pexels.com/photos/1680172/pexels-photo-1680172.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-          icon: "asset/twitter.png",
+            "https://www.looper.com/img/gallery/my-hero-academia-the-reason-all-might-is-the-most-powerful-teacher/intro-1596067346.jpg",
+          icon: "asset/symbol.jpeg",
           desc:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem.",
+            "I would give Matthew one for all if I didn't meet Midoriya-Kun first. Matthew is a very smart and logical person.",
         },
         {
           id: 2,
-          name: "Alex Kalinski",
-          title: "Co-Founder of DELKA",
+          name: "Erwin Smith",
+          title: "Commander of Survey Corps",
           img:
-            "https://images.pexels.com/photos/428321/pexels-photo-428321.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-          icon: "asset/youtube.png",
+            "https://yakovmerkin.files.wordpress.com/2021/02/erwin-smith-2.jpg?w=1080",
+          icon: "asset/survey_corps.png",
           desc:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem recusandae perspiciatis ducimus vel hic temporibus. ",
+            "Matthew is a great person and a great worker, he always give his work his all. SASAGEYO!!!!!!",
           featured: true,
         },
         {
           id: 3,
-          name: "Martin Harold",
-          title: "CEO of ALBI",
+          name: "Naruto Uzumaki",
+          title: "Hokage of the Hidden Leaf Village",
           img:
-            "https://images.pexels.com/photos/3863793/pexels-photo-3863793.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-          icon: "asset/linkedin.png",
+            "asset/naruto.png",
+          icon: "asset/leaf.jpg",
           desc:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem",
+            "Matthew should be the next hokage because he is just that good.",
         },
       ];
     return (

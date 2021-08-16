@@ -71,11 +71,11 @@
         img {
           &.left,
           &.right {
-            height: 25px;
+            height: 45px;
           }
           &.user {
-            height: 60px;
-            width: 60px;
+            height: 100px;
+            width: 100px;
             border-radius: 50%;
             object-fit: cover;
             margin: 0 30px;

@@ -1,31 +1,31 @@
 export const featuredPortfolio = [
     {
         id:1,
-        title: "Nezuko",
-        img: "https://www.anime-planet.com/images/characters/145805.jpg?t=1562445151"
+        title: "Plates-Perfecto",
+        img: "https://img.taste.com.au/vhZfDaJw/taste/2017/07/lemongrass-beef-bowl-128353-1.jpg"
     },
     {
         id: 2,
-        title : "Inosuke",
-        img: "https://i.pinimg.com/736x/2a/23/e0/2a23e0e0976bed20e34b06cf21ae709c.jpg"
+        title : "RoastBot",
+        img: "https://img.huffingtonpost.com/asset/5cd9dc352100005900805b84.jpeg?ops=scalefit_720_noupscale"
     },
     {
         id: 3,
-        title : "Zenitsu",
-        img: "https://cdn.myanimelist.net/images/characters/6/384253.jpg"
+        title : "Crypto-Tracker",
+        img: "asset/doge.png"
     },
     {
         id: 4,
-        title: "Rengoku",
-        img:"https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/8/8a/Kyojuro%27s_introduction_%28anime%29.png/revision/latest?cb=20190831164755"   
+        title: "Tetris",
+        img:"https://scienceline.org/wp-content/uploads/2020/01/tetris.jpg"   
     }
 ];
 
 export const webPortfolio = [
     {
         id: 1,
-        title: "Cryptocurrency Tracker",
-        img:"https://sabe.io/tutorials/getting-started-with-react/cryptocurrency-ticker-app.png"
+        title: "Crypto-Tracker",
+        img:"asset/doge.png"
     }
 ];
 
@@ -33,12 +33,22 @@ export const mobilePortfolio = [
     {
         id: 1,
         title: "Plates Perfecto",
-        img: "asset/plates_home.jpeg"
+        img: "https://img.taste.com.au/vhZfDaJw/taste/2017/07/lemongrass-beef-bowl-128353-1.jpg"
     },
     {
         id:2,
         title: "Instagram Clone",
-        img: "asset/insta_clone.png"
+        img: "https://sm.mashable.com/t/mashable_in/help/8/8-ingeniou/8-ingenious-things-you-didnt-know-you-could-do-on-instagram_ne8y.960.jpg"
+    },
+    {
+        id:3,
+        title:"Flixster",
+        img: "https://i.pinimg.com/736x/aa/f7/05/aaf705e06726ce3881288ae4be3ac5fe.jpg"
+    },
+    {
+        id:4,
+        title:"Twitter Clone",
+        img: "https://static01.nyt.com/images/2014/08/10/magazine/10wmt/10wmt-superJumbo-v4.jpg"
     }
 ];
 
@@ -46,14 +56,14 @@ export const softwarePortfolio = [
     {
         id: 1,
         title: "Roast Bot",
-        img:"asset/roast_bot.png"
+        img:"https://img.huffingtonpost.com/asset/5cd9dc352100005900805b84.jpeg?ops=scalefit_720_noupscale"
     }
 ];
 
 export const gamePortfolio = [
     {
         id: 1,
-        title: "Shinobu",
-        img: "https://www.dexerto.com/wp-content/uploads/2020/10/84e9a88f4ef22840aa068b4bebba899df56d2b74r1-675-720v2_uhq.jpg"
+        title: "Tetris",
+        img: "https://scienceline.org/wp-content/uploads/2020/01/tetris.jpg"
     }
 ]

@@ -1,29 +1,31 @@
 import "./work.scss"
 import {useState} from "react";
+import { IconButton } from '@material-ui/core';
+import { GitHub} from "@material-ui/icons";
 
 export default function Works() {
     const [currentSlide,setCurrentSlide] = useState(0)
     const data = [
         {
             id: "1",
-            icon: "./asset/mobile.png",
-            title: "Web Design",
-            desc:"To infinity anddd your bitch ass mom's house",
-            img: "https://static.wikia.nocookie.net/disney/images/2/22/Profile_-_Woody.jpeg/revision/latest?cb=20200711052417"
+            icon: "https://github.com/darkhunter3210/Crypto-Currency-Tracker",
+            title: "Crypto-Tracker",
+            desc:"A crypto tracker that tracks the price of different cryptocurrency prices. Using an api to grab the crypto prices and update the prices every minute.",
+            img: "https://sabe.io/tutorials/getting-started-with-react/cryptocurrency-ticker-app.png"
         },
         {
             id: "2",
-            icon: "./asset/globe.png",
-            title: "Mobile Applications",
-            desc:"Woody shut your cow boy ass up",
-            img: "https://static.wikia.nocookie.net/disney/images/7/74/Profile_-_Buzz_Lightyear.jpeg/revision/latest?cb=20190623020017"
+            icon: "https://github.com/Plates-Perfecto/CodePath-iOS-Final-Project",
+            title: "Plates-Perfecto",
+            desc:"A ios app, that uses an api to grab different recipes. The app has 4 different categories suggestion,breakfast,main and dessert. The suggestions change base on the time of the day, if is the morning it would suggest breakfast, afternoon lunch and night dinner.",
+            img: "asset/p.jpeg"
         },
         {
             id:"3",
-            icon: "./asset/gaming.png",
-            title: "Gaming",
-            desc: "your mom is a hoe",
-            img: "https://static01.nyt.com/images/2019/04/20/us/20readers-jesus3/21readers-jesus3-articleLarge.jpg?quality=75&auto=webp&disable=upscale"
+            icon: "https://github.com/darkhunter3210/RoastBot",
+            title: "RoastBot",
+            desc: "A discord bot that roast people when use commands. If someone typed a keyword in the discord server, the bot will automatically roast that person. Users can also add more key words to the bot.Users can also update the joke.",
+            img: "asset/discord_roast.png"
         }
     ];
 
@@ -40,7 +42,9 @@ export default function Works() {
                         <div className="left">
                             <div className="leftContainer">
                                 <div className="imgContainer">
-                                    <img src={d.icon} alt=""/>
+                                    <IconButton href={d.icon}>
+                                    <GitHub/>
+                                    </IconButton>
                                 </div>
                                 <h2>{d.title}</h2>
                                 <p>{d.desc}</p>

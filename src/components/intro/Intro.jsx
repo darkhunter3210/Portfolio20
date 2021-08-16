@@ -19,14 +19,15 @@ export default function Intro() {
         <div className="intro" id="intro">
             <div className="left">
                 <div className="imgContainer">
-                    <img src="asset/tanjiro.jpeg" alt=""/>
+                    <img src="asset/selfie.png" alt=""/>
                 </div>
             </div>
             <div className="right">
                 <div className="wrapper">
                     <h2>Hi There, I'm</h2>
-                    <h1>Matthew Cheung</h1>
-                    <h3><span ref={textRef}></span> Developer</h3>
+                    <h1>Matthew Cheung a</h1>
+                    <h3> <span ref={textRef}></span> Developer</h3>
+                    <h3>and a gamer and an anime lover.</h3>
                 </div>
                 <a href="#portfolio">
                     <img src="asset/down.png" alt=""/>
