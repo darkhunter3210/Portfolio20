@@ -16,7 +16,7 @@ export const featuredPortfolio = [
     },
     {
         id: 4,
-        title: "Tetris",
+        title: "Tetris(in develope)",
         img:"https://scienceline.org/wp-content/uploads/2020/01/tetris.jpg"   
     }
 ];
