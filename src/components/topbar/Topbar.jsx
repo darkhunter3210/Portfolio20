@@ -19,7 +19,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
           </div>
           <div className="itemContainer">
             <LinkedIn className="icon" />
-            <a href="https://www.linkedin.com/in/tsz-chung-matthew-cheung-bb50bb195/">Matty</a>
+            <a href="https://www.linkedin.com/in/matt3003/">Matty</a>
           </div>
         </div>
         <div className="right">
